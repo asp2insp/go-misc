@@ -1,7 +1,7 @@
 package algorithms
 
 import "testing"
-import "github.com/ca-geo/interview-prep/testutils"
+import "github.com/ca-geo/go-misc/testutils"
 
 func TestSort(t *testing.T) {
 	input := []int{42, 5, 10, 36, 13}

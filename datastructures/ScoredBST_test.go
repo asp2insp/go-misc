@@ -2,7 +2,7 @@ package datastructures
 
 import "strconv"
 import "testing"
-import "github.com/ca-geo/interview-prep/testutils"
+import "github.com/ca-geo/go-misc/testutils"
 
 type IntWrap struct {
 	int

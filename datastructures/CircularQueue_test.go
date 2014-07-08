@@ -1,7 +1,7 @@
 package datastructures
 
 import "testing"
-import "github.com/ca-geo/interview-prep/testutils"
+import "github.com/ca-geo/go-misc/testutils"
 
 func TestSatisfiesInterface(t *testing.T) {
 	var cq CircularQueue
