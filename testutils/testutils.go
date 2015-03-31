@@ -14,6 +14,12 @@ func CheckInt(exp, obs int, t *testing.T) {
 	}
 }
 
+func CheckInt64(exp, obs int64, t *testing.T) {
+	if exp != obs {
+		t.Errorf("Expected %v but got %v", exp, obs)
+	}
+}
+
 func ExpectTrue(obs bool, message string, t *testing.T) {
 	if !obs {
 		t.Errorf("Expected true but got false: %s", message)
