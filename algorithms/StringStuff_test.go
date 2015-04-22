@@ -1,7 +1,7 @@
 package algorithms
 
 import "testing"
-import "github.com/ca-geo/go-misc/testutils"
+import "github.com/asp2insp/go-misc/testutils"
 
 func TestIsPermutation(t *testing.T) {
 	testutils.ExpectTrue(IsPermutation("abcd", "dacb"), "abcd is a permutation of dacb", t)

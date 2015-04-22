@@ -2,7 +2,7 @@ package datastructures
 
 import "strconv"
 import "testing"
-import "github.com/ca-geo/go-misc/testutils"
+import "github.com/asp2insp/go-misc/testutils"
 
 type IntWrap struct {
 	int
@@ -106,5 +106,4 @@ func checkSlice(exp, obs []Scorable, t *testing.T) {
 			t.Errorf("Slices differ in element number %d: %v vs %v", i, v, obs[i])
 		}
 	}
-	t.Logf("Expected: %v\nActual: %v", exp, obs)
 }

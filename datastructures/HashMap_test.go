@@ -1,7 +1,7 @@
 package datastructures
 
 import "testing"
-import "github.com/ca-geo/interview-prep/testutils"
+import "github.com/asp2insp/go-misc/testutils"
 
 func hash(s string) uint {
 	var hash uint = 5381

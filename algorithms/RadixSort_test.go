@@ -1,7 +1,7 @@
 package algorithms
 
 import "testing"
-import "github.com/ca-geo/go-misc/testutils"
+import "github.com/asp2insp/go-misc/testutils"
 
 func TestSort(t *testing.T) {
 	input := []int{42, 5, 10, 36, 13}
