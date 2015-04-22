@@ -2,6 +2,7 @@ go-misc
 =======
 
 [![Build Status](https://travis-ci.org/asp2insp/go-misc.svg?branch=master)](https://travis-ci.org/asp2insp/go-misc)
+
 Miscellaneous Golang implementations
 
 Algorithms
